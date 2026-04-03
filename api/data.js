@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const GAS_URL = "YOUR_GAS_DEPLOY_URL_HERE";
+  const GAS_URL = "https://script.google.com/macros/s/AKfycbylHndp9RIRgocXIYKVjCkiXP0x_dPsrv91fW26pFmp58MsZsnzoEn0blGpgDMtSB9F/exec";
   try {
     const response = await fetch(GAS_URL);
     const data = await response.json();
